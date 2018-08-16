@@ -1,23 +1,16 @@
-
- @media(max-width: 800px) {
-.navbar li {
-	display:inline-block;
-    float:right;
-}
-}
-
 .nav-color {
     color: rgb(224, 224, 224);
 }
 
 #headers h3, h4 {
     color:#1879b1ee;
- }
+    }
 
 .logo {
     background-color: #1879b1ee;
     font: white;
-    font-size: 30px;   
+    font-size: 30px; 
+    margin-left: 20px;  
 }
 
 .image-specs {
@@ -45,7 +38,7 @@ tr:nth-child(even) {
 }
 
 body{
-    background-color: lightgray;
+    
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -60,3 +53,24 @@ body{
     background-color: #1879b1ee;
 }
 
+@media(max-width: 800px) {
+    .navbar {
+        display:inline-block;
+        float:right;
+    }
+}
+
+@media (max-width: 780px) {
+    .navbar-header {
+        background-color: #1879b1ee;
+    }
+}
+
+@media (min-width: 780px) {
+    body {
+        background-color:  lightgray;
+    }
+}
+
+
+    
